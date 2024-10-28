@@ -71,14 +71,17 @@ bottom: 35px;
 align-items: center;
 color: white;
 letter-spacing: 4px;
+width: 400px;
+position: absolute;
+left: 50px;
 }
 
 .bottom_bottom {
     position: absolute;
-    left: 30px;
+    left: 60px;
     bottom: 25px;
     top: 50px;
-    width: 700px;
+    width: 900px;
     padding: 8px;
     height: 3%;
     letter-spacing: 3px;
@@ -106,7 +109,8 @@ letter-spacing: 4px;
     width: 45px;
     height: 25px;
     position: absolute;
-    left: 1px;
+    left: 86px;
+    top: 14px;
 }
 
 #instagram {
@@ -114,8 +118,8 @@ letter-spacing: 4px;
     width: 27px;
     height: 24px;
     position: absolute;
-    left: 55px;
-    top: 12px;
+    left: 150px;
+    top: 15px;
 }
 
 #linkedin {
@@ -123,6 +127,6 @@ letter-spacing: 4px;
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 100px;
-    top: 10px;
+    left: 200px;
+    top: 13px;
 }
