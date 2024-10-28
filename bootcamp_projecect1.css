@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: "Instrument Serif";
+    background-color: #B5681B;
+}
+
+.content {
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 24px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    letter-spacing: 4px;
+    
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+.main_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.middle { 
+    align-items: center;
+    letter-spacing: 4px; 
+}
+
+.middle_middle {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+
+}
+
+.middle_bottom {
+    background-color: #683615;
+    color: white;
+    padding: 8px;
+    margin: 20px auto;
+    height: 3%;
+    width: 100px;
+    position: absolute;
+    top: 43%;
+    left: 29%;
+    font-size: 10px;
+}
+
+.bottom {
+position: absolute;
+left: 35px;
+bottom: 35px;
+
+}
+
+.bottom_top {
+align-items: center;
+color: white;
+letter-spacing: 4px;
+}
+
+.bottom_bottom {
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    top: 50px;
+    width: 700px;
+    padding: 8px;
+    height: 3%;
+    letter-spacing: 3px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    padding: 10px;
+    gap: 10px;
+}
+#myself {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-right: 10%;
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+}
+
+#github {
+    align-items: top;
+    width: 45px;
+    height: 25px;
+    position: absolute;
+    left: 1px;
+}
+
+#instagram {
+    align-items: top;
+    width: 27px;
+    height: 24px;
+    position: absolute;
+    left: 55px;
+    top: 12px;
+}
+
+#linkedin {
+    align-items: top;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
